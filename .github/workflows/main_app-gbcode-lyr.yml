@@ -50,6 +50,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'app-gbcode-lyr'
-          slot-name: 'staging'
+          slot-name: staging
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F94474631E7E492191338AA40493BEEE }}
